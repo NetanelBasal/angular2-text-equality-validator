@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "module": "commonjs",
+        "target": "ES5",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "sourceMap": true,
+        "declaration": true,
+        "lib": [
+            "dom",
+            "es2015.collection",
+            "es2015.promise",
+            "es5"
+        ],
+        "moduleResolution": "node"
+    },
+    "files": [
+        "angular2-text-equality-validator.ts",
+        "typings/index.d.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

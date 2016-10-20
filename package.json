@@ -1,0 +1,39 @@
+{
+  "name": "angular2-text-equality-validator",
+  "version": "1.0.0",
+  "description": "Angular 2 text equality validator, compare password",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NetanelBasal/angular2-text-equality-validator.git"
+  },
+  "scripts": {
+    "dev": "tsc --watch",
+    "prepublish": "tsc"
+  },
+  "keywords": [
+    "angular",
+    "angular2",
+    "password",
+    "compare password",
+    "compare text",
+    "input compare"
+  ],
+  "author": "Netanel Basal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NetanelBasal/angular2-text-equality-validator.git/issues"
+  },
+  "main": "angular2-text-equality-validator.js",
+  "typings": "./angular2-text-equality-validator.d.ts",
+  "homepage": "https://github.com/NetanelBasal/angular2-text-equality-validator.git#readme",
+  "devDependencies": {
+    "typescript": "^2.0.3",
+        "@angular/core": "^2.1.0",
+    "@angular/forms": "^2.1.0",
+    "rxjs": "^5.0.0-rc.1"
+  },
+  "peerDependencies": {},
+  "dependencies": {
+
+  }
+}
