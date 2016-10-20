@@ -45,7 +45,7 @@ export default class EqualTextValidator implements Validator {
    */
   checkEquality( passwordVal: string, repeatEle: any ) {
     if( repeatEle && passwordVal !== repeatEle.value ) return {
-      validateEqual: false
+      validateEqual: true
     }
     return null;
   }
