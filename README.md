@@ -1,7 +1,7 @@
 #### Angular 2 compare text fields validator - useful for password match fields
 
 
-`npm install --save angular2-text-equality-validator`
+`npm install --save angular2-text-equality-validator`  
 `import { EqualTextValidator } from "angular2-text-equality-validator";`  
 Add the directive to module
 
