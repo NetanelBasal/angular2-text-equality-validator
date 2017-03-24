@@ -8,7 +8,7 @@ import { Input } from "@angular/core";
     {provide: NG_VALIDATORS, useExisting: forwardRef(() => EqualTextValidator), multi: true}
   ]
 })
-export default class EqualTextValidator implements Validator {
+export class EqualTextValidator implements Validator {
   @Input() validateEqualTo : string;
   private _onChange : () => void;
   oldVal : string;
