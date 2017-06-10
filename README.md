@@ -1,3 +1,6 @@
+## deprecated!! 
+Use https://github.com/NetanelBasal/ngx-text-equality-validator instead 
+
 #### Angular 2 compare text fields validator - useful for password match fields
 
 
